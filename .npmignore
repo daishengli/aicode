@@ -1,0 +1,31 @@
+# 源码相关
+.git/
+.github/
+docs/
+test/
+scripts/
+.gitignore
+.nvmrc
+.DS_Store
+
+# 开发配置
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# CI
+coverage/
+.nyc_output/
+
+# 临时
+tmp/
+temp/
+*.tmp

@@ -1,0 +1,45 @@
+{
+  "name": "@daishengli1024/aicode",
+  "version": "0.1.1",
+  "description": "跨 AI 编码工具（Claude Code / codex / opencode）的开发规范管理 CLI",
+  "main": "./lib/index.js",
+  "bin": {
+    "aicode": "./bin/aicode.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "templates/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/run.js",
+    "start": "node bin/aicode.js",
+    "lint": "echo \"lint 占位，后续接入\" && exit 0",
+    "publish:official": "node scripts/publish-official.js"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "claude-code",
+    "codex",
+    "opencode",
+    "rules",
+    "standards",
+    "scaffolding"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "aicode contributors",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {}
+}
